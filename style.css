@@ -19,9 +19,9 @@ footer{
 main section{           
 	border-left: 2pt solid purple; /*dotted dashed*/
 	border-right: 2pt solid purple;
-	border-radius: 60px;
+	border-radius: 400px;
 	padding: 2%;
-	width: 30%
+	width: 50%
 }
 /*h2 mis on section sees*/
 main section h2{
@@ -44,7 +44,7 @@ li {
   float: left;
 }
 
-li a {
+li a{
   display: block;
   color: pink;
   text-align: center;
@@ -55,3 +55,7 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+img{border-radius: 80%;
+}
+
