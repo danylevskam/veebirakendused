@@ -1,0 +1,188 @@
+table{
+	width:40%;
+	height: 200px;
+	border: 1pt solid purple;	
+}
+td{
+	border: 1pt solid purple;
+	text-align: center;/*выравнивание текста*/
+}
+#tabel1 tr:nth-child(1) td:nth-child(1){
+	background-color: pink;
+}
+#tabel1 tr:nth-child(1) td:nth-child(2){
+	background-color: cadetblue;
+}
+#tabel1 tr:nth-child(2) td:nth-child(1){
+	background-color: cadetblue;
+}
+#tabel1 tr:nth-child(2) td:nth-child(2){
+	background-color: pink;
+}	
+#tabel1 tr:nth-child(1) td:nth-child(3){
+	background-color: pink;
+}
+#tabel1 tr:nth-child(2) td:nth-child(3){
+	background-color: cadetblue;
+}
+
+/*-------------Eesti lipp------------*/
+#eesti{
+	width:330px;
+	height: 210px;
+	border: 1pt solid grey;	
+	border-spacing: 0;
+}
+#eesti td{
+	border: 0;
+}
+
+#eesti tr:nth-child(1) {
+	background-color: blue;
+}
+#eesti tr:nth-child(2) {
+	background-color: black;
+}
+#eesti tr:nth-child(3) {
+	background-color: white;
+}
+
+/*-------------Soome lipp------------*/
+#soome{
+	width:330px;
+	height: 210px;
+	border: 1pt solid grey;	
+	border-spacing: 0;
+}
+#soome td{
+	border: 0;
+}
+
+
+#soome tr:nth-child(1) td:nth-child(1),
+#soome tr:nth-child(3) td:nth-child(1) {
+	background-color: white;
+	width: 25%;
+}
+
+#soome tr:nth-child(1) td:nth-child(2),
+#soome tr:nth-child(3) td:nth-child(2) {
+	background-color: blue;
+	width: 15%;
+}
+
+#soome tr:nth-child(2) {
+	background-color: blue;
+	height: 20%;
+}
+
+#soome tr:nth-child(3) {
+	background-color: white;
+}
+
+/*-------------Varvi palett--------------*/
+#palet{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid grey;	
+}
+
+#palet tr:nth-child(1){
+	background-color: #9999ff;
+}
+
+#palet tr:nth-child(2) td:nth-child(1){
+	background-color: #a882e8;
+}
+
+#palet tr:nth-child(2) td:nth-child(2){
+	background-color: #b86bd1;
+}
+
+#palet tr:nth-child(3) td:nth-child(1){
+	background-color: #db369c;
+}
+
+#palet tr:nth-child(3) td:nth-child(2){
+	background-color: #ff0066;
+}
+
+/*-------------Saksa lipp------------*/
+#saksa{
+	width:330px;
+	height: 210px;
+	border: 1pt solid grey;	
+	border-spacing: 0;
+}
+#saksa td{
+	border: 0;
+}
+
+#saksa tr:nth-child(1) {
+	background-color: black;
+}
+#saksa tr:nth-child(2) {
+	background-color: red;
+}
+#saksa tr:nth-child(3) {
+	background-color: yellow;
+}
+
+/*-------------Bulgaaria lipp------------*/
+#bulgaaria{
+	width:330px;
+	height: 210px;
+	border: 1pt solid grey;	
+	border-spacing: 0;
+}
+#bulgaaria td{
+	border: 0;
+}
+
+#bulgaaria tr:nth-child(1) {
+	background-color: white;
+}
+#bulgaaria tr:nth-child(2) {
+	background-color: green;
+}
+#bulgaaria tr:nth-child(3) {
+	background-color: red;
+}
+
+/*-------------Prantsusmaa lipp------------*/
+#prantsusmaa{
+	width:330px;
+	height: 210px;
+	border: 1pt solid grey;	
+	border-spacing: 0;
+}
+#prantsusmaa td{
+	border: 0;
+}
+
+#prantsusmaa tr:nth-child(1) {
+	background-color: blue;
+}
+#prantsusmaa tr:nth-child(2) {
+	background-color: white;
+}
+#prantsusmaa tr:nth-child(3) {
+	background-color: red;
+}
+
+/*-------------Poola lipp------------*/
+#poola{
+	width:330px;
+	height: 210px;
+	border: 1pt solid grey;	
+	border-spacing: 0;
+}
+#poola td{
+	border: 0;
+}
+
+#poola tr:nth-child(1) {
+	background-color: white;
+}
+#poola tr:nth-child(2) {
+	background-color: red;
