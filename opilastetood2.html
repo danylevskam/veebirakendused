@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Õpilase ankeet tabelina</title>
+</head>
+<body>
+<h1>Õpilase ankeet tabelina</h1>
+<form>
+    <table border="1">
+        <tr>
+            <td>
+                <label for="nimi">Sisesta nimi</label>
+            </td>
+            <td>
+                <input type="text" id="nimi" name="nimi" placeholder="Eesnimi">
+                <div id="vastus"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="perekonnanimi">Sisesta Perekonnanimi</label>
+            </td>
+            <td>
+                <input type="text" id="perekonnanimi" name="perekonnanimi" placeholder="Perekonnanimi">
+                <div id="vastus"></div>
+            </td>
+        </tr>
+        <tr>
+             <td>
+                 <label for="kurs1">Vali oma kursus</label>
+             </td>
+             <td>
+                 <input type="checkbox" id="kurs1" value="1 kursus">
+                 <label for="kurs1">1. Kursus</label>
+                 <br>
+                 <input type="checkbox" id="kurs2" value="2 kursus">
+                 <label for="kurs2">2. Kursus</label>
+                 <br>
+                 <input type="checkbox" id="kurs3" value="3 kursus">
+                 <label for="kurs3">3. Kursus</label>
+                <br>
+             </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>Vali eriala:</lable>
+            </td>
+            <td>
+                <input type="radio" id="it" value="IT" name="eriala">
+                <label for="it">Infotehnoloogia</label>
+                <br>
+                <input type="radio" id="juuksur" value="Juuksur" name="eriala">
+                <label for="juuksur">Juuksur</label>
+                <br>
+                <input type="radio" id="meh" value="Meh" name="eriala">
+                <label for="meh">Mehhatronika</label>
+                <br>
+                <input type="radio" id="ratsep" value="Rätsep" name="eriala">
+                <label for="ratsep">Rätsep</label>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Kirjuta ennast:</label>
+            </td>
+            <td>
+                <br>
+                <textarea id="kiri">
+oodetakse 100 sõnu
+    </textarea>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="linn">Elukoht:</label>
+            </td>
+            <td>
+                <select name="linn" id="linn">
+                    <option value="vali">Vali linn...</option>
+                    <option value="Tallinn">Tallinn</option>
+                    <option value="Tartu">Tartu</option>
+                    <option value="Narva">Narva</option>
+                    <option value="Paide">Paide</option>
+                    <option value="Kehra">Kehra</option>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="paev">Sisesta sünnipäev</label>
+            </td>
+            <td>
+                <input type="text" id="paev" name="paev" placeholder="Sünnipäev">
+                <div id="paev"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="number">Sisesta number</label>
+            </td>
+            <td>
+                <input type="text" id="number" name="number" placeholder="Number">
+                <div id="number"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="post">Sisesta post</label>
+            </td>
+            <td>
+                <input type="text" id="post" name="post" placeholder="Post">
+                <div id="post"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <br>
+                <input type="button" value="Salvesta">
+                <br>
+                <input type="reset" value="Puhasta">
+            </td>
+        </tr>
+</body>
