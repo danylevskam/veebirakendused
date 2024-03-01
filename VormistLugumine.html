@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <title>Vormist Lugemine</title>
+  <link rel="stylesheet" type="text/css" href="VormistCSS.css">
+  <script src="vormScript.js"></script>
+</head>
+<body>
+<h1>Vormist Lugemine</h1>
+<form>
+  <label for="nimi">Eesnimi</label>
+  <input type="text" id="nimi" placeholder="Eesnimi" oninput="tekstKast()">
+  <div id="vastus"></div>
+
+  <br>
+  <br>
+  <br>
+
+  <fieldset>
+    <legend>Vali sugu:</legend>
+  <input type="radio" id="mees" name="sugu" onchange="radioValik()">
+  <label for="mees">mees</label>
+    <br>
+  <input type="radio" id="naine" name="sugu" onchange="radioValik()">
+  <label for="naine">naine</label>
+    <div id="vastus2"></div>
+    <img src="" id="pilt">
+  </fieldset>
+  <br>
+  <label for="linn">Kust pärit sa oled?</label>
+  <select id="linn" onchange="selectValik()">
+    <option value="vali..">Vali...</option>
+    <option value="Tallinn">Tallinn</option>
+    <option value="Turba">Turba</option>
+    <option value="Kehra">Kehra</option>
+    <option value="Narva">Narva</option>
+    <option value="Aegvidu">Aegvidu</option>
+    <option value="Viljandi">Viljandi</option>
+    <option value="Maardu">Maardu</option>
+    <option value="Tapu">Tapu</option>
+    <option value="Pärni">Pärnu</option>
+  </select>
+  <div id="vastus3"></div>
+
+</form>
+
+</body>
+</html>
