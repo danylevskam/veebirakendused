@@ -12,6 +12,7 @@
 
     <!--teksti kast-->
     <label for="nimi">Sisesta nimi:</label>
+    <br>
     <input type="text" id="nimi" name="nimi" placeholder="Eesnimi" oninput="sissestaNimi()">
     <div id="vastus"></div>
     <br>
@@ -51,6 +52,7 @@ oodetakse 100 sõnu
     <br>
     <!--ripploend-->
     <label for="linn">Elukoht:</label>
+    <br>
     <select name="linn" id="linn">
         <option value="vali">Vali linn...</option>
         <option value="Tallinn">Tallinn</option>
@@ -61,7 +63,30 @@ oodetakse 100 sõnu
     </select>
     <br>
         <label for="birthday">Sunni päev:</label>
+    <br>
         <input type="kuupaev" id="birthday" name="birthday">
+    <br>
+    <strong>Vali oma lemmikmuusika</strong>
+    <br>
+    <input type="checkbox" id="jazz" value="jazz" onchange="checkboxValik()">
+    <label for="jazz">jazz</label>
+    <br>
+    <input type="checkbox" id="metall" value="metall" onchange="checkboxValik()">
+    <label for="metall">metall</label>
+    <br>
+    <input type="checkbox" id="popp" value="popp" onchange="checkboxValik()">
+    <label for="popp">popp</label>
+    <br>
+    <input type="checkbox" id="tehnotrans" value="tehnotrans" onchange="checkboxValik()">
+    <label for="tehnotrans">tehnotrans</label>
+    <br>
+    <input type="checkbox" id="rock" value="rock" onchange="checkboxValik()">
+    <label for="rock">rock</label>
+    <br>
+    <input type="checkbox" id="rapp" value="rapp" onchange="checkboxValik()">
+    <label for="rapp">rapp</label>
+    <br>
+    <div id="vastus4"></div>
     <br>
     <input type="button" value="Salvesta">
     <input type="reset" value="Puhasta">

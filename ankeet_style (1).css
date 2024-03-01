@@ -1,0 +1,30 @@
+h1{
+    background-color: #e8dda7;
+}
+input[type=text] {
+    padding: 10px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    border: 3px solid #90d9ad;
+    width: 75%;
+}
+input[type=text]:hover {
+    background-color: #80c7a7;
+}
+textarea {
+    width: 50%;
+    height: 60px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #d96e6e;
+    border-radius: 4px;
+    background-color: #e5dcb4;
+    resize: none;
+    transition: width 0.4s ease-in-out;
+}
+textarea:focus {
+    width: 100%;
+}
